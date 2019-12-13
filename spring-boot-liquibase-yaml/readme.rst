@@ -1,0 +1,1 @@
+You can read tutorial https://www.roytuts.com/evolving-database-using-spring-boot-liquibase/
