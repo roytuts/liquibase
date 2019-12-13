@@ -1,0 +1,26 @@
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<changeSet id="03" author="Soumitra Roy">
+		<insert tableName="users">
+			<column name="id" valueNumeric="1" />
+			<column name="name" value="Soumitra" />
+			<column name="email" value="contact@roytuts.com" />
+			<column name="phone" valueNumeric="1234567890" />
+			<column name="address" valueNumeric="1" />
+		</insert>
+
+		<insert tableName="users">
+			<column name="id" valueNumeric="2" />
+			<column name="name" value="Rushikesh" />
+			<column name="email" value="contact@roytuts.com" />
+			<column name="phone" valueNumeric="1234567891" />
+			<column name="address" valueNumeric="2" />
+		</insert>
+	</changeSet>
+
+</databaseChangeLog>
