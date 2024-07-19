@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/evolving-database-using-spring-boot-liquibase/
+Please follow the tutorial https://roytuts.com/evolving-database-using-spring-boot-liquibase/
