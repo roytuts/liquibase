@@ -1,1 +1,1 @@
-You can go through the tutorial https://www.roytuts.com/how-versioning-maintenance-happens-in-liquibase/
+Please follow the tutorial https://roytuts.com/how-versioning-maintenance-happens-in-liquibase/
